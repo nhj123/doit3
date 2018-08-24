@@ -1,0 +1,33 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="doit-manager-web:war exploded">
+    <output-path>$PROJECT_DIR$/doit-manager/doit-manager-web/target/doit-manager-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="doit-manager-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="doit-manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="doit-manager-service" />
+          </element>
+          <element id="archive" name="doit-manager-dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="doit-manager-dao" />
+          </element>
+          <element id="archive" name="doit-manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="doit-manager-pojo" />
+          </element>
+          <element id="archive" name="doit-manager-interface-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="doit-manager-interface" />
+          </element>
+          <element id="archive" name="doit-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="doit-common" />
+          </element>
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/doit-manager/doit-manager-web/target/doit-manager-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="doit-manager-web/web/Web" />
+    </root>
+  </artifact>
+</component>
