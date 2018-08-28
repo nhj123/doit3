@@ -12,7 +12,7 @@
     <modules>
         <module>../doit-common</module>
         <module>../doit-manager</module>
-        <module>../doit-portal</module>
+        <module>../doit-portal</module> 
     </modules>
     <!--打包方式-->
     <!--用于继承maven工程-->
